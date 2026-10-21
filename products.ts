@@ -1,0 +1,9 @@
+export type Product = { id: number; name: string; category: string; price: number; sizes: string; color: string; image: string; description: string };
+export const products: Product[] = [
+  { id: 1, name: 'Traditional Kerala Baby Dress', category: 'Traditional', price: 699, sizes: '0–6M, 6–12M, 1–2Y', color: 'Cream & Gold', image: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=900&q=85', description: 'Festive traditional style with a golden look.' },
+  { id: 2, name: 'Floral Party Frock', category: 'Party Wear', price: 849, sizes: '6–12M, 1–2Y, 2–3Y', color: 'Pink', image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=900&q=85', description: 'A cute floral look for celebrations and photos.' },
+  { id: 3, name: 'Soft Cotton Daily Dress', category: 'Daily Wear', price: 399, sizes: '0–6M, 6–12M, 1–2Y', color: 'Pastel', image: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=85', description: 'Comfortable everyday style for little ones.' },
+  { id: 4, name: 'Festive Zari Border Set', category: 'Traditional', price: 999, sizes: '6–12M, 1–2Y, 2–3Y', color: 'Gold & Maroon', image: 'https://images.unsplash.com/photo-1503919005314-30d93d07d823?auto=format&fit=crop&w=900&q=85', description: 'A festive outfit idea for special occasions.' },
+  { id: 5, name: 'Cute Bow Party Dress', category: 'Party Wear', price: 749, sizes: '0–6M, 6–12M, 1–2Y', color: 'Lavender', image: 'https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=900&q=85', description: 'Sweet party style with a lovely bow detail.' },
+  { id: 6, name: 'Classic Baby Ethnic Set', category: 'Traditional', price: 899, sizes: '6–12M, 1–2Y, 2–3Y', color: 'Ivory', image: 'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&w=900&q=85', description: 'Classic ethnic-inspired styling for celebrations.' }
+];
